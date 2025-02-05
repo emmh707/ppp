@@ -52,10 +52,14 @@
 # print(f'at least one result is zero {divide1==0 or  divide2==0}')
 #
 
-name = input("What is your name? ")
-print(name)
-username = input("What is your username? ")
-print(username)
-password = input("What is your password? ")
-print(password)
-print(f'both username and password are correct {username=="admin" and password=="secure123"}')
+# name = input("What is your name? ")
+# print(name)
+# username = input("What is your username? ")
+# print(username)
+# password = input("What is your password? ")
+# print(password)
+# print(f'both username and password are correct {username=="admin" and password=="secure123"}')
+
+secret_code = int(input("Enter a secret code: "))
+print(secret_code)
+print((secret_code>50 and secret_code<100))
